@@ -4,8 +4,9 @@ import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 
 export const metadata: Metadata = {
-  title: 'CRC Maesta',
-  description: 'CRC Maesta',
+  title: 'CRC Maesta: Luxury Apartments with Modern Amenities in Noida.',
+  description:
+    'CRC Maesta is offering premium apartments in Noida with world-class amenities, a prime location, and modern design. Experience luxury living like never before. Book your dream home today!',
 };
 
 export default function RootLayout({
