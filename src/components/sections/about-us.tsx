@@ -87,7 +87,7 @@ export default function AboutUs() {
             CRC Maesta redefines luxury living with spacious residential
             properties starting from 1,700 sq. ft., with prices beginning at
             ₹2.40 cr. This prestigious development represents an exceptional
-            living space in one of Noida's most prime locations.
+            living space in one of Noida&apos;s most prime locations.
           </p>
           <p>
             The project features innovative architecture and high-class
