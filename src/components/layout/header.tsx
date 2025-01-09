@@ -37,23 +37,6 @@ const navigationItems: {
     title: 'About Us',
     href: '#about',
   },
-  {
-    title: 'Legacy',
-    href: '#legacy',
-  },
-
-  {
-    title: 'Key Facts',
-    href: '#key-facts',
-  },
-  {
-    title: 'Noida Highlights',
-    href: '#noida-highlights',
-  },
-  {
-    title: 'Why Invest',
-    href: '#why-invest',
-  },
 ];
 
 export default function Header() {
@@ -69,7 +52,7 @@ export default function Header() {
             width={110}
             height={110}
           /> */}
-          M3M Cullinan
+          CRC Maesta
         </Link>
 
         {/* Desktop Navigation */}

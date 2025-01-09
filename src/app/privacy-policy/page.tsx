@@ -51,7 +51,7 @@ export default function PrivacyPolicy() {
           className="prose dark:prose-invert max-w-none"
         >
           <p>
-            At M3M Cullinan, we take your privacy seriously. This Privacy Policy
+            At CRC Maesta, we take your privacy seriously. This Privacy Policy
             explains how we collect, use, disclose, and safeguard your
             information when you visit our website or use our services.
           </p>

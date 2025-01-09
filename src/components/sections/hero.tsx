@@ -46,7 +46,7 @@ export default function Hero() {
           >
             <div className="relative aspect-square rounded-2xl overflow-hidden bg-muted">
               <CloudinaryImage
-                src="M3MThecullina_eeq1dj"
+                src="crcmaest_n9llco"
                 alt="Background"
                 fill
                 sizes="100vw"

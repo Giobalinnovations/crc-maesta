@@ -2,8 +2,7 @@
 
 import { Section } from '@/components/ui/section';
 import { motion } from 'framer-motion';
-import { Building2, TrendingUp, Landmark, Shield } from 'lucide-react';
-import CloudinaryImage from '@/components/cloudinary-image';
+import { Home, MapPin, Leaf, Shield } from 'lucide-react';
 import Link from 'next/link';
 
 const fadeIn = {
@@ -71,49 +70,34 @@ export default function AboutUs() {
             <span className="h-px w-12 bg-primary"></span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-            M3M The Cullinan
+            CRC Maesta
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            An upscale commercial venture by M3M Group on Noida Expressway,
-            where luxury meets convenience
+            An upscale residential masterpiece by CRC Group on Noida Expressway,
+            where luxury meets serenity
           </p>
         </motion.div>
 
         {/* Main Content */}
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-          <motion.div
-            variants={fadeIn}
-            className="space-y-6 text-lg text-muted-foreground"
-          >
-            <p>
-              M3M The Cullinan redefines luxury and convenience, offering
-              premium commercial spaces starting from 207 sq. ft., with prices
-              beginning at ₹90 lakhs. This prestigious development represents an
-              exceptional investment opportunity in one of Noida&apos;s most
-              prime locations.
-            </p>
-            <p>
-              The project features world-class architecture and modern
-              infrastructure, catering to retailers, corporate offices, and
-              premium brands. Its strategic location on the Noida Expressway
-              ensures seamless connectivity to Delhi-NCR and proximity to key
-              residential and commercial hubs.
-            </p>
-          </motion.div>
-          <motion.div
-            variants={fadeIn}
-            className="relative rounded-2xl overflow-hidden h-[400px]"
-          >
-            <CloudinaryImage
-              src="virtualtour_byzbrf"
-              alt="M3M The Cullinan Exterior"
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className="rounded-2xl"
-              fill
-              priority
-            />
-          </motion.div>
-        </div>
+        <motion.div
+          variants={fadeIn}
+          className="max-w-3xl mx-auto space-y-6 text-lg text-muted-foreground mb-16"
+        >
+          <p>
+            CRC Maesta redefines luxury living with spacious residential
+            properties starting from 1,700 sq. ft., with prices beginning at
+            ₹2.40 cr. This prestigious development represents an exceptional
+            living space in one of Noida's most prime locations.
+          </p>
+          <p>
+            The project features innovative architecture and high-class
+            construction, perfect for families seeking a serene yet
+            well-connected lifestyle. Its strategic location on the Noida
+            Expressway ensures seamless connectivity to all major hubs in
+            Delhi-NCR, with proximity to schools, hospitals, shopping centers,
+            and entertainment zones.
+          </p>
+        </motion.div>
 
         {/* Features Grid */}
         <motion.div
@@ -121,33 +105,33 @@ export default function AboutUs() {
           className="grid md:grid-cols-2 lg:grid-cols-4 gap-6"
         >
           <FeatureCard
-            icon={Building2}
-            title="Premium Spaces"
-            description="High-end commercial spaces starting from 207 sq. ft., perfect for retail and office use"
+            icon={Home}
+            title="Luxury Living"
+            description="Spacious residential properties starting from 1,700 sq. ft., designed for comfortable family living"
           />
           <FeatureCard
-            icon={Landmark}
-            title="Modern Infrastructure"
-            description="World-class architecture with sophisticated fire protection and modern utilities"
+            icon={MapPin}
+            title="Prime Location"
+            description="Strategic location on Noida Expressway with excellent connectivity to Delhi-NCR"
           />
           <FeatureCard
             icon={Shield}
-            title="Complete Security"
-            description="24/7 security coverage and free parking facilities for hassle-free operations"
+            title="World-Class Amenities"
+            description="State-of-the-art clubhouse, swimming pool, fitness centers, and landscaped gardens"
           />
           <FeatureCard
-            icon={TrendingUp}
-            title="Green Spaces"
-            description="Recreational areas and green spaces for an excellent business environment"
+            icon={Leaf}
+            title="Eco-Friendly"
+            description="Energy-efficient systems and sustainable design for environmentally conscious living"
           />
         </motion.div>
 
         {/* Call to Action */}
         <motion.div variants={fadeIn} className="text-center mt-12">
           <p className="text-lg text-muted-foreground">
-            M3M The Cullinan is your ideal destination to grow your business or
-            invest in a promising commercial property. Unmatched growth and
-            returns await.
+            CRC Maesta is your gateway to sophisticated living and a smart
+            investment choice for those seeking luxury homes in Noida.
+            Experience the perfect blend of comfort and elegance.
           </p>
           <Link
             href="#hero"
