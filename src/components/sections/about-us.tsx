@@ -134,7 +134,7 @@ export default function AboutUs() {
             Experience the perfect blend of comfort and elegance.
           </p>
           <Link
-            href="#hero"
+            href="#contact-form"
             className="inline-block mt-6 px-8 py-3 bg-primary text-white rounded-full
             hover:bg-primary/90 transition-colors duration-300"
           >

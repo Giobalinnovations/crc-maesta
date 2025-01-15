@@ -37,14 +37,6 @@ const navigationItems: {
     title: 'About Us',
     href: '#about',
   },
-  {
-    title: 'Floor Plans',
-    href: '#floor-plans',
-  },
-  {
-    title: 'Location',
-    href: '#location',
-  },
 ];
 
 export default function Header() {
